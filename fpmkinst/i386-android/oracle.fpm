@@ -1,0 +1,10 @@
+Name=oracle
+Version=3.2.2
+Checksum=1387285691
+CPU=i386
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\oracle\
+FPMakeOptions=-o -Tandroid -o -XPi686-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-x86/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/x86-4.9/prebuilt/windows/bin/ -o -di386 -o -dRELEASE
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

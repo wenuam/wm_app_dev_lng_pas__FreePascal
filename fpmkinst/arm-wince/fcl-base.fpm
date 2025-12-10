@@ -1,0 +1,10 @@
+Name=fcl-base
+Version=3.2.2
+Checksum=1387235353
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fcl-base\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,rtl-objpas|1387235353
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=fcl-db
+Version=3.2.2
+Checksum=1387285762
+CPU=mipsel
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\fcl-db\
+FPMakeOptions=-o -Tandroid -o -Pmipsel -o -XPmipsel-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-mips/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/mipsel-linux-android-4.9/prebuilt/windows/bin/ -o -dmipsel -o -dRELEASE
+Depends=rtl,fcl-base|1387285753,fcl-xml|1387285756,rtl-objpas|1387285752,rtl-extra|1387285751,ibase|1387285750,mysql|1387285751,odbc|1387285750,oracle|1387285751,postgres|1387285751,sqlite|1387285752,dblib|1387285750,fcl-json|1387285754
+NeedLibC=N
+FPMakeAddIn=N

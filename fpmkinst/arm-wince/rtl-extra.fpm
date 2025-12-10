@@ -1,0 +1,10 @@
+Name=rtl-extra
+Version=3.2.2
+Checksum=1387235352
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\rtl-extra\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

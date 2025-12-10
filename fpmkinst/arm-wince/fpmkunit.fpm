@@ -1,0 +1,10 @@
+Name=fpmkunit
+Version=3.2.2
+Checksum=1387235370
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fpmkunit\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,hash|1387235363,paszlib|1387235363,fcl-process|1387235365,libtar|1387235363
+NeedLibC=N
+FPMakeAddIn=N

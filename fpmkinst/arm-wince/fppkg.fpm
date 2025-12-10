@@ -1,0 +1,10 @@
+Name=fppkg
+Version=3.2.2
+Checksum=1387235371
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fppkg\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1387235353,fcl-xml|1387235354,fcl-process|1387235365,paszlib|1387235363,fpmkunit|1387235370,fcl-net|1387235365,fcl-web|1387235370,httpd22|1387235369
+NeedLibC=N
+FPMakeAddIn=N

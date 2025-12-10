@@ -1,0 +1,10 @@
+Name=fppkg
+Version=3.2.2
+Checksum=1387285723
+CPU=x86_64
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\fppkg\
+FPMakeOptions=-o -Tandroid -o -Px86_64 -o -XPx86_64-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-x86_64/usr/lib64 -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/x86_64-4.9/prebuilt/windows/bin/ -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1387285722,fcl-xml|1387285723,fcl-process|1387285722,paszlib|1387285721,fpmkunit|1387285723
+NeedLibC=N
+FPMakeAddIn=N

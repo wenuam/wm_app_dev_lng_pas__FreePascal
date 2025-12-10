@@ -1,0 +1,10 @@
+Name=fcl-fpcunit
+Version=3.2.2
+Checksum=1387235363
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fcl-fpcunit\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,paszlib|1387235363,fcl-base|1387235353,fcl-xml|1387235354,libtar|1387235363
+NeedLibC=N
+FPMakeAddIn=N

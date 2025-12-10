@@ -1,0 +1,10 @@
+Name=fpindexer
+Version=3.2.2
+Checksum=1387235370
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fpindexer\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1387235353,fcl-db|1387235362,chm|1387235360,sqlite|1387235361
+NeedLibC=N
+FPMakeAddIn=N

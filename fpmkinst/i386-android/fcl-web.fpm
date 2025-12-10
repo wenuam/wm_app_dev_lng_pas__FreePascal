@@ -1,0 +1,10 @@
+Name=fcl-web
+Version=3.2.2
+Checksum=1387285699
+CPU=i386
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\fcl-web\
+FPMakeOptions=-o -Tandroid -o -XPi686-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-x86/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/x86-4.9/prebuilt/windows/bin/ -o -di386 -o -dRELEASE
+Depends=rtl,fcl-base|1387285692,fcl-db|1387285698,fcl-xml|1387285693,fcl-json|1387285692,fcl-net|1387285696,fcl-process|1387285693,fcl-fpcunit|1387285696,openssl|1387285696,fastcgi|1387285690,httpd22|1387285691,httpd24|1387285691,libmicrohttpd|1387285691
+NeedLibC=N
+FPMakeAddIn=N

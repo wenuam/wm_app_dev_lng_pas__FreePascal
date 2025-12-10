@@ -1,0 +1,10 @@
+Name=fcl-base
+Version=3.2.2
+Checksum=1387285656
+CPU=aarch64
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\fcl-base\
+FPMakeOptions=-o -Tandroid -o -Paarch64 -o -XPaarch64-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-arm64/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/aarch64-linux-android-4.9/prebuilt/windows/bin/ -o -daarch64 -o -dRELEASE
+Depends=rtl,rtl-objpas|1387285654
+NeedLibC=N
+FPMakeAddIn=N

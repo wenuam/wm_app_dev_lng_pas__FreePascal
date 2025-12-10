@@ -1,0 +1,10 @@
+Name=fcl-pdf
+Version=3.2.2
+Checksum=1387285760
+CPU=mipsel
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\fcl-pdf\
+FPMakeOptions=-o -Tandroid -o -Pmipsel -o -XPmipsel-linux-android- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-mips/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/mipsel-linux-android-4.9/prebuilt/windows/bin/ -o -dmipsel -o -dRELEASE
+Depends=rtl,rtl-objpas|1387285752,fcl-base|1387285753,fcl-image|1387285755,fcl-xml|1387285756,paszlib|1387285753
+NeedLibC=N
+FPMakeAddIn=N

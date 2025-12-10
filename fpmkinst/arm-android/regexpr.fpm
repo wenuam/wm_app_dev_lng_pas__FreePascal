@@ -1,0 +1,10 @@
+Name=regexpr
+Version=3.2.2
+Checksum=1387285619
+CPU=arm
+OS=android
+SourcePath=C:\Develop\FPC\fpcbuild\fpcsrc\packages\regexpr\
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -FlC:/Tools/AndroidSDK/android-ndk-r12b/platforms/android-21/arch-arm/usr/lib -o -Ur -o -Xs -o -O2 -o -n -o -FDC:/Tools/AndroidSDK/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows/bin/ -o -darm -o -dRELEASE -o -Cparmv7a -o -Cfvfpv3_d16
+Depends=rtl,rtl-objpas|1387285618
+NeedLibC=N
+FPMakeAddIn=N

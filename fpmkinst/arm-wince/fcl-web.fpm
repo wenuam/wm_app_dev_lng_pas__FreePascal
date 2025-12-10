@@ -1,0 +1,10 @@
+Name=fcl-web
+Version=3.2.2
+Checksum=1387235370
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\fcl-web\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,fcl-base|1387235353,fcl-db|1387235362,fcl-xml|1387235354,fcl-json|1387235361,fcl-net|1387235365,fcl-process|1387235365,fcl-fpcunit|1387235363,fcl-registry|1387235365,openssl|1387235369,fastcgi|1387235360,httpd22|1387235369,httpd24|1387235369
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=rtl-console
+Version=3.2.2
+Checksum=1387478599
+CPU=i8086
+OS=msdos
+SourcePath=C:\tralala\fpcbuild-3.2.2\fpcsrc\packages\rtl-console\
+FPMakeOptions=-o -Tmsdos -o -Pi8086 -o -FDC:/tralala/fpcbuild-3.2.2/install/crossbinmsdos -o -CX -o -XXs -o -di8086 -o -CX -o -XXs -o -Wmhuge -o -Cp80386
+Depends=rtl,rtl-extra|1387478597
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,10 @@
+Name=gnutls
+Version=3.2.2
+Checksum=1387235380
+CPU=arm
+OS=wince
+SourcePath=C:\repo\fpcb322\fpcsrc\packages\gnutls\
+FPMakeOptions=-o -Twince -o -Parm -o -XParm-wince- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -darm -o -dRELEASE
+Depends=rtl,fcl-net|1387235365
+NeedLibC=N
+FPMakeAddIn=N
